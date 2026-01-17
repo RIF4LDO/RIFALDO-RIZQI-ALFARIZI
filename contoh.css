@@ -1,0 +1,41 @@
+.certificate-card {
+  background: #fafafa;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(20, 7, 202, 0.4);
+  transition: transform .3s;
+}
+
+.certificate-card:hover {
+  transform: translateY(-6px);
+}
+
+.certificate-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Badge */
+.badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.badge-international {
+  background: linear-gradient(45deg,#ff512f,#f09819);
+}
+
+.badge-national {
+  background: linear-gradient(45deg,#36d1dc,#5b86e5);
+}
+
+.badge-school {
+  background: linear-gradient(45deg,#11998e,#38ef7d);
+}
